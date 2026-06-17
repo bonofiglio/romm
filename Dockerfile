@@ -1,5 +1,6 @@
 # trunk-ignore-all(trivy)
 # trunk-ignore-all(checkov)
+LABEL org.opencontainers.image.source=https://github.com/bonofiglio/romm
 
 FROM ubuntu:22.04
 
