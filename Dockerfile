@@ -1,7 +1,8 @@
 # trunk-ignore-all(trivy)
 # trunk-ignore-all(checkov)
-
 FROM ubuntu:22.04
+
+LABEL org.opencontainers.image.source=https://github.com/bonofiglio/romm
 
 # Prevent interactive prompts during installation
 ENV DEBIAN_FRONTEND=noninteractive
